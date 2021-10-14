@@ -1,4 +1,4 @@
-def LucasRow(input):
+def lucasRow(input):
   firstnumber = 2
   secondnumber = 1
   sum = 1
@@ -9,4 +9,4 @@ def LucasRow(input):
     if thirtnumber % 2 != 0:
       sum+= thirtnumber
   return sum
-print(LucasRow(4000000))
+print(lucasRow(4000000))
